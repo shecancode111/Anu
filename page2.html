@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Mission and Vision, SNUH</title>
+</head>
+<body>
+    <div class="Header"  id="header">
+  <div class="header-top">
+    <div class="logo">
+      <img class="logo-default" src="http://www.snuh.org/global/asset/img/main/logo.png">
+      <img class="logo-hover" src="C:\Users\anumu\Downloads\Screenshot_2025-08-10_105022-removebg-preview.png">
+    </div>
+    <div class="top-right">
+      <p>Language</p>
+      <div class="language-button">
+      <i class="bi bi-arrow-down-circle-fill"></i>
+      <ul class="language">
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_the_United_States_%28Web_Colors%29.svg/960px-Flag_of_the_United_States_%28Web_Colors%29.svg.png" width="20px" height="auto">English </li>
+        <li><img src="https://flagpedia.net/data/flags/w1600/cn.png" width="20px" height="auto">中文</li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/800px-Flag_of_Russia.svg.png" width="20px">Pусский</li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/2560px-Flag_of_Mongolia.svg.png" width="20px">Монгол хэл</li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" width="20px">عرب؛ عربيّ </li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1200px-Flag_of_South_Korea.svg.png" width="20px">한국어</li>
+
+      </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="header-bottom">
+    <ul>
+      <li><i class="bi bi-list"></i></li>
+      <li class="one"><a href="">Find a Doctor</a>
+        <div class="dropdown1">
+      <div class="Section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+              <ul>
+                <li>Find a Doctor</li>
+                <li>Main Hospital</li>
+                <li>Children's Hospital</li>
+                <li>Cancer Hospital</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <span>Find a Doctor</span>
+              <div class="onchange-menu">
+      <select onchange="showvalue(this)">
+        <option value="">Department All</option>
+        <option value="">--Main Hospital</option>
+        <option value="">Allergy and Clinical Immunology</option>
+        <option value="">Anesthesiology and Pain Medicine</option>
+        <option value="">Biomedical engineering</option>
+        <option value="">Breast and Endocrine Surgery</option>
+        <option value="=">Cardiology</option>
+        <option value="">Clinical Pharmacology and Therapeutics</option>
+        <option value="=">Colorectal Surgery</option>
+        <option value="=">Department of Critical Care Medicine</option>
+        <option value="=">Department of Transdicsiplinary Medicine</option>
+        <option value="=">Dermatology</option>
+        <option value="=">Drug Safety Center</option>
+        <option value="=">Emergency Medical Center</option>
+        <option value="=">Emergency Medicine</option>
+        <option value="=">Endocrinology and Metabolism</option>
+        <option value="=">Family Medicine</option>
+        <option value="=">Gastroeenterology</option>
+        <option value="=">Family Medicine</option>
+        <option value="=">Gastrointestinal Surgery</option>
+        <option value="=">Health Promotion And Optimal Aging</option>
+        <option value="=">Hemato Oncology</option>
+        <option value="=">Hepatobiliary and Pancreatic Srrgery</option>
+        
+      </select>
+    </div>
+              <div class="search-button">Search</div>
+            </div>
+            <div class="col-md-4">
+              <p>Request an Appointment</p>
+              <h3>+82-2-2072-0505</h3>
+              <p>Office Hours / (Except holidays)</p>
+              <h3>Mon.-Fri. 9:00am ~ 5:30pm</h3>
+              <div class="appointment-button">Request an Appointment Online</div>
+
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </li>
+      <li class="second">
+      <a href="">Patients</a>
+      <div class="dropdown2">
+        <div class="column">
+          <h4>International Patients</h4>
+          <ul>
+          <li >Language Services</li>
+          <li>Billing and Insurance</li>
+          </ul>
+          <h4>FAQ</h4>
+        </div>
+        <div class="column">
+          <h4>Domestic patients</h4>
+          <ul>
+          <li>General Guideline</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>International Healthcare Center</h4>
+          <ul>
+          <li >About Us</li>
+          <li >Our Doctors</li>
+          <li >IHC Stories</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Our Services</h4>
+          <ul>
+          <li>Outpatient services </li>
+          <li>Inpatient services</li>
+          <li>Emergency services</li>
+          <li >Health Screening Programs</li>
+          <li >Special Clinics</li>
+          <li >Medical records/certificate</li>
+          <li >Homecare service</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Appointment</h4>
+          <ul>
+          <li >For international Patients </lo>
+          <li >Confirmation</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+      <li class="third"><a href="">Education & Research</a>
+        <div class="dropdown2">
+          <div class="column">
+            <h4>Education</h4>
+          <ul>
+          <li>Introduction</li>
+          <li >Professional Development</li>
+          <li >Academic Advancement</li>
+          <li >Visiting Students</li>
+          </ul>
+          <h4>Research</h4>
+          </div>
+          <div class="column">
+            <h4>Introductiom</h4>
+            <iframe width="378" height="217" src="https://www.youtube.com/embed/WvpgNpafoNY" title="Why Dr. Koji Natsuda takes SNUH Medical Training ?(Dr. Koji Natsuda는 왜 서울대학교병원의 교육연수프로그램에 참여했을까?)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="column">
+            <h4>Professional Development</h4>
+            <div class="appointment-button">Sponsored Program</div>
+            <div class="appointment-button1">Non-sponsored Program</div>
+            <br>
+            <br>
+            <img src="http://www.snuh.org/global/asset/img/main/img_gnb_banner.jpg">
+          </div>
+        </div>
+      
+      
+      
+      
+      </li>
+      <li class="fourth"><a href="">Information</a>
+        <div class="dropdown2">
+          <div class="column">
+            <h4>Directions</h4>
+          <h4>IHC Location</h4>
+          </div>
+          <div class="column">
+            <h4>General Guide Map</h4>
+            <ul>
+              <li>Outpatient Guide Map</li>
+              <li>Daehan Center</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Parking</h4>
+            <h4>Visiting Hours</h4>
+            <h4>Convenient Facilities</h4>
+            <h4>Accommodations Nearby</h4>
+          </div>
+          <div class="column">
+            <h4>How to get to SNUH</h4>
+            <img src="http://www.snuh.org/global/asset/img/main/img_gnb_map.jpg">
+          </div>
+        </div>
+      </li>
+      <li class="fifth"><a href="">About SNUH</a>
+        <div class="dropdown2">
+          <div class="column">
+            <h4>Greetings</h4>
+            <h4>History</h4>
+            <h4>Status and Statistics</h4>
+            <h4>Mission and VIsion</h4>
+            <h4>One SNUH Network Mission and Vision</h4>
+          </div>
+          <div class="column">
+            <h4>Colloborate with Us</h4>
+            <h4>SNUH Branches</h4>
+            <ul>
+              <li>Main Hospital</li>
+              <li>Children's Hospital</li>
+              <li>Cancer Hospital</li>
+              <li>Bundang Hospital</li>
+              <li>Boramae Hospital</li>
+              <li>Gangnam Center</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>News</h4>
+            <h4>Video</h4>
+            <h4>Patent Bill of Rights and Responsibilities</h4>
+            <h4>Contact Us</h4>
+          </div>
+          <div class="column">
+            <h4>Brochure</h4>
+            <img src="http://www.snuh.org/global/asset/img/main/img_bro01.jpg">
+            <img src="http://www.snuh.org/global/asset/img/main/img_bro02.jpg">
+          </div>
+        </div>
+
+
+      </li>
+      <li><i class="bi bi-search"></i></li>
+    </ul>
+  </div>
+  <nav class="navbar">
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="C:\Documents\SheCanCode2025\Website Project\SNU-hospital.html"><i class="bi bi-house-door-fill"></i></a>
+      </li>
+      <li class="nav-item dropdown">
+       <div class="on-menu">
+      <select onchange="showvalue(this)">
+        <option value="">Information</option>
+        <option value="">Find a Doctor</option>
+        <option value="">Patients</option>
+        <option value="">Education&Research</option>
+        <option value="">About SNUH</option>
+        
+      </select>
+      </div>
+      </li>
+      <li class="nav-item dropdown">
+        <div class="on-menu">
+      <select onchange="showvalue(this)">
+        <option value="">Mission</option>
+        <option value="">Directions</option>
+        <option value="">IHC Location</option>
+        <option value="">General Guide Map</option>
+        <option value="">Parking</option>
+        <option value="">Visiting Hours</option>
+        <option value="">Convenient Facilities</option>
+        <option value="">Accommodations Nearby</option>
+      </select>
+      </div>
+      </li>
+      <li class="nav-item appointment">
+        <a href="#">Appointment</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<br>
+
+<div class="mission-body">
+    <div class="mission-left">
+    <h1>Mission and Vision</h1>
+    <h2>MISSION</h2>
+    <h3>SNUH has the mission of helping human beings to
+enjoy a healthy and happy life by providing
+the world’s best education, research and medical care.</h3>
+        <img src="http://www.snuh.org/global/asset/img/about/img_vision.png">
+    <h2>VISION</h2>
+    <h4><span>01</span>The most trusted hospital, with the best medical care</h4>
+    <p>We aim at constantly securing the world’s state-of-art medical care technology to become the hospital that
+our nation and healthcare professionals can trust and select.</p>
+    <h4><span>02</span>A hospital guiding the future of life</h4>
+    <p>We aim at expanding our knowledge in the area of medical research by conducting the studies that will enable us
+to healthily extend life, and producing world-wide achievements.</p>
+    <h4><span>03</span>A hospital fostering leaders for global healthcare</h4>
+    <p>We aim at fostering world-class leaders to lead medical advancements, based on our rich experience
+and creative education.</p>
+    <h4><span>04</span>A hospital engaging in policy cooperation and pursuing advanced healthcare</h4>
+    <p>We aim at leading advanced healthcare by suggesting a strategy for developing the Korean healthcare system,
+and engaging in policy cooperation.</p>
+</div>
+    <div class="helpful-links">
+
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<!--Footer-->
+<div class="footer">
+  <div class="language-footer">
+    <div class="langs">
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1200px-Flag_of_South_Korea.svg.png" width="20px"> Korean</p>
+      <p><img src="https://flagpedia.net/data/flags/w1600/cn.png" width="20px" height="auto"> 中文</p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/2560px-Flag_of_Mongolia.svg.png" width="20px"> Монгол хэл</p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/800px-Flag_of_Russia.svg.png" width="20px"> Русский</p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" width="20px"> عربي</p>
+    </div>
+    <div class="onchange">
+      <select onchange="showvalue(this)">
+        <option value="">Select Language</option>
+        <option value="">Branches</option>
+        <option value="Arabic">Arabic</option>
+        <option value="Chinese">Chinese</option>
+        <option value="English">English</option>
+        <option value="Korean">Korean</option>
+        <option value="Mongolian">Mongolian</option>
+        <option value="Russian">Russian</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="footer-footer">
+    <div class="footer-box">
+      <img src="http://www.snuh.org/global/asset/img/main/logo.png" width="230px">
+      <p>© Seoul National University Hospital.</p>
+      <p>All Rights Reserved.</p>
+    </div>
+    <div class="footer-box">
+      <h5>ADDRESS</h5>
+      <p>101, Daehak-ro Jongno-gu, Seoul 03080, Rep. of Korea</p>
+    </div>
+    <div class="footer-box">
+      <h5>Contact Us</h5>
+      <p>Call : +82-2-2072-0505</p>
+      <span>(Monday to Friday 9:00am - 5:30pm)</span>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+      },
+      effect: "fade",
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    window.addEventListener("scroll", function() {
+    const header = document.getElementById("header");
+    if (window.scrollY > 80) { 
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+});
+  </script>
+</body>
+</html>
